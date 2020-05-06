@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>Aug Prep Computer Science</title>
+    </head>
+    <body>
+        <section="center">
+          <img class="centerimg" src="aug_logo.svg" alt="Aug Prep logo">
+          <h2>Computer Science Department</h2>
+        </section>
+<!-- Navigational bar-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-item nav-link active" href="freshman.html">Freshman Year</a>
+                  <a class="nav-item nav-link" href="sophomore.html">Sophomore Year</a>
+                  <a class="nav-item nav-link" href="junior.html">Junior Year</a>
+                  <a class="nav-item nav-link" href="senior.html">Senior Year</a>
+                </div>
+             </div>
+        </nav>
+<!--card groups -->
+        <div class="card-group">
+          <div class="card">
+            <img src="scratch.png" class="card-img-top" alt="scratch image">
+            <div class="card-body">
+              <h5 class="card-title">Freshman Year</h5>
+              <p class="card-text">This was built by a freshman during the first semester. This was the first major project of the year.</p>
+              <a href="https://scratch.mit.edu/projects/331162753" class="card-link">Program Link</a>
+              <p class="card-text"><small class="text-muted">By Angel Camacho in 2019 using Scratch</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="all3.png" class="card-img-top" alt="html image">
+            <div class="card-body">
+              <h5 class="card-title">Sophomore Year</h5>
+              <p class="card-text">You will learn HTML, CSS and JavaScript to make fun and interactive web pages. HTML controls what is on your web page.
+                CSS controls how it looks - color, size, location
+                JS makes your page interactive</p>
+              <p class="card-text"><small class="text-muted">Learn to design web pages like this one</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="clicker.png" class="card-img-top" alt="clicker game">
+            <div class="card-body">
+              <h5 class="card-title">Junior Year</h5>
+              <p class="card-text">This is a sample project from our AP Computer Science Principles class.</p>
+              <a href="https://studio.code.org/projects/applab/uOgmMoPIFY0fSA5Gt4zAEBsVa39jgzCiK-cg8mPaKOQ" class="card-link">Program Link</a>
+              <p class="card-text"><small class="text-muted">By Brenda Sanchez in 2020 using Java Script in AppLab</small></p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="raspberrypi.jfif" class="card-img-top" alt="rasberry pi">
+            <div class="card-body">
+              <h5 class="card-title">Senior Year</h5>
+              <p class="card-text">Senior year students will learn about hardware and use programming to interact with
+              that hardware using the Raspberry Pi</p>
+              <p class="card-text"><small class="text-muted">Hardware and coding using Raspberry Pi</small></p>
+            </div>
+          </div>
+        </div>
+
+<!-- collapsable descriptions-->
+        <div class="accordion" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h2 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Freshman Year
+                </button>
+              </h2>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                Freshman year students get an introduction to programming. They start will a block based language where thye can make simple games
+                 and will progress to Python by the second semester. Pyhton is a text based language that is very powerful yet simple to learn. No
+                 programming experience is needed; however, if you do have experience you will be able to build on those skills and make more complex
+                 programs and games.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Sophomore Year
+                </button>
+              </h2>
+            </div>
+            <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Sophomore year will be web programming. You will learn to make web pages like this one and many others. You will learn HTML, CSS and
+                Java Script which will allow you to have attractive, functional and interactive pages. You can use your artistic and creative skills
+                to make something others will want to use.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Junior Year
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Junior year students will take AP Computer Science Principles. An end of year exam gives students the ability to earn college credit
+                if they pass the AP exam. Students will learn how the internet works, how the computer processes data and how to use top down design while
+                programming. Students will make apps for their phone using AppLab and JavaScript.
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h2 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Senior Year
+                </button>
+              </h2>
+            </div>
+            <div id="collapseThree" class="collapse show" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Senior year students will learn about hardware and controlling the hardware using a Raspberry Pi. You will learn about input switches and sensors
+                and learn about how to control outputs based on those inputs. We will be controlling LEDs, motors, buzzers and much more. Senior year will
+                show you there is more to programming than inputs from a keyboard and outputs only to a screen.
+              </div>
+            </div>
+          </div>
+        </div>
+      <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+</html>
